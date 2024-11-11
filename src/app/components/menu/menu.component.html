@@ -1,0 +1,24 @@
+<div>
+    <ul>
+        <li *ngFor="let numero of numeros">
+            <a [routerLink]="['tabla',numero]">
+                Tabla del {{numero}}
+            </a>
+        </li>
+        <li>
+            <a [routerLink]="['/']">Home</a>
+        </li>
+        <li>
+            <a [routerLink]="['/cine']">Cine</a>
+        </li>
+        <li>
+            <a [routerLink]="['/musica']">Musica</a>
+        </li>
+        <li>
+            <a [routerLink]="['/doble']">Doble</a>
+        </li>
+        <li>
+            <a [routerLink]="['/doble/7']">Doble de 7</a>
+        </li>
+    </ul>
+</div>

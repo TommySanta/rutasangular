@@ -1,0 +1,21 @@
+<div>
+    <h1>Numero doble parametros </h1>
+    <div *ngIf="numero">
+        <h2 style="color: blue
+        
+        ;">
+            El doble de {{numero}} es {{doble}}
+        </h2>
+    </div>
+    <div *ngIf="!numero">
+        <h2 style="color: red;">
+            No hemos recibiddo parámetros
+        </h2>
+    </div>
+    <button (click)="goToHome()">
+        Ir a Home
+    </button>
+    <button (click)="redirect(11)">
+        Boton 11
+    </button>
+</div>
